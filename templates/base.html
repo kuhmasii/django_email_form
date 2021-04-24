@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Email Platform contact">
+	<title>Email Platform</title>
+</head>
+
+<body>
+	<h1>Contact Form</h1>
+	<p>
+	<form method="POST">
+		{{ form.as_p }}
+		{% csrf_token %}
+		<input type="submit" name="Fill in">
+	</form>
+	</p>
+</body>
+
+</html>
