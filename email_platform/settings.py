@@ -130,5 +130,3 @@ EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
 # Make sure not to post confidential documents to your repository
 EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 EMAIL_USE_TLS = True
-
-print(EMAIL_HOST_PASSWORD, EMAIL_HOST_USER)
